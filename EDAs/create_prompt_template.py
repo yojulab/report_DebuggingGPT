@@ -57,7 +57,10 @@ prompt_template_third = {
     "response_split": "### Response:",
 }
 
+# save path
+datas_filepath = 'Datas/custom.json'
+
 # upload templates/custom.json
 prompt_template = prompt_template_first
-with open('templates/custom.json', 'w', encoding='utf-8') as f:
+with open(datas_filepath, 'w', encoding='utf-8') as f:
     json.dump(prompt_template, f, ensure_ascii=False)
