@@ -1,1 +1,326 @@
-[{"sheet_name": "GoNi", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first = 'KIM'\nprint(first)\n"}, {"sheet_name": "GoNi", "debugCode": "Empty1 = \" \", Empty2 = \" \", Empty3 = \" \"", "errorContent": " Empty1 = \" \"  , Empty2 = \" \" , Empty3 = \" \"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "Empty1 = \" \" \nEmpty2 = \" \" \nEmpty3 = \" \""}, {"sheet_name": "GoNi", "debugCode": "Print(\"vespaet3\")", "errorContent": "----> 1 Print(\"vespaet3\") # 라인하나에 3개의 과정을 거친다.\nNameError: name 'Print' is not defined", "resultCode": "print(\"vespaet3\")"}, {"sheet_name": "오상훈", "debugCode": "if first < second :\n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")", "errorContent": "line 4\n    else\n         ^\nSyntaxError: expected ':'", "resultCode": "if first < second :\n  first = first + 30\n  print(first)\nelse :\n  second = second + 30\n  print(second)\nprint(\"End\")"}, {"sheet_name": "오상훈", "debugCode": "if first < second \n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")", "errorContent": "line 1\n    if first < second\n                      ^\nSyntaxError: expected ':'", "resultCode": "if first < second :\n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")"}, {"sheet_name": "오상훈", "debugCode": "E1 = \"\", E2 = \"\"", "errorContent": "line 1\n    E1 = \"\", E2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "E1 = \"\"\nE2 = \"\""}, {"sheet_name": "오상훈", "debugCode": "Print(\"오상훈\")", "errorContent": "----> 1 Print(\"오상훈\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"오상훈\")"}, {"sheet_name": "한희수", "debugCode": "print(first)", "errorContent": "1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": NaN}, {"sheet_name": "한희수", "debugCode": "Wind = \"\", Wish = \"\"", "errorContent": "line 1\n    Wind = \"\", Wish = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "Wind = \"\"\nWish = \"\""}, {"sheet_name": "한희수", "debugCode": "Print(\"한희수\")", "errorContent": "----> 1 Print(\"한희수\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"한희수\")"}, {"sheet_name": "geosan", "debugCode": "if D = 9 :\n  B = 5\n  print(B)\nelse :\n  B = 200\n  print(B)", "errorContent": "line 2\n    if D = 9 :\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "if D == 9 :\n  B = 5\n  print(B)\nelse :\n  B = 200\n  print(B)"}, {"sheet_name": "geosan", "debugCode": "print (first)", "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"geosan\"\n\nprint (first)"}, {"sheet_name": "geosan", "debugCode": "dog = \"\", cat = \"\"", "errorContent": " File \"<ipython-input-2-defc814a9e0a>\", line 1\n    dog = \"\", cat = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "dog = \"\" \ncat = \"\""}, {"sheet_name": "geosan", "debugCode": "Print (\"임거산\")", "errorContent": "----> 1 Print (\"임거산\")\n\nNameError: name 'Print' is not defined", "resultCode": "print (\"임거산\")"}, {"sheet_name": "최정문", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"JeongMoonChoi\"\nprint(first)"}, {"sheet_name": "최정문", "debugCode": "J1 = \"\", J2 = \"\"", "errorContent": "line 1\n    J1 = \"\", J2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "J1 = \"\"\nJ2 = \"\""}, {"sheet_name": "최정문", "debugCode": "Print(\"최정문\")", "errorContent": "----> 1 Print(\"최정문\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"최정문\")"}, {"sheet_name": "SangaKim", "debugCode": "if D != 9:\n  B = 200\n  print (A,B,C,D)\nelse :\n  B = 5\n  print (A,B,C,D)\nif A != 10:\n  C= 50\n  print (A,B,C,D)\nelse :\n  D= 30\n  print (A,B,C,D)\nprint (\"END\")", "errorContent": "line 1\n    if D = 9 :\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?\nline 7\n    if A = 10:\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "if d != 9 : \n  b = 5\nelse :\n  b = 200\nif a == 10 :\n  c = 50\nelse :\n  d = 30\n  print (a,b,c,d)\nprint (\"END\")"}, {"sheet_name": "SangaKim", "debugCode": "print (first)", "errorContent": "NameError                                 Traceback (most recent call last)\n<ipython-input-5-79635e4c55b2> in <cell line: 1>()\n----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "first=\"SangaKim\"\nprint (first)"}, {"sheet_name": "SangaKim", "debugCode": " S1=\"\", S2=\"\"", "errorContent": " File \"<ipython-input-3-e3d5369c2a18>\", line 1\n    S1=\"\", S2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": " S1=\"\"\n S2=\"\""}, {"sheet_name": "SangaKim", "debugCode": "Print (\"Sanga Kim\")", "errorContent": "NameError                                 Traceback (most recent call last)\n<ipython-input-1-075a26f02cea> in <cell line: 1>()\n----> 1 Print (\"Sanga Kim\")", "resultCode": "print (\"Sanga Kim\")"}, {"sheet_name": "가배", "debugCode": "if \"xz\" in a:\n        print \"ok\"\n        else:\n        print\"nok\"", "errorContent": "SyntaxError: invalid syntax", "resultCode": "if \"xz\" in a:\n        print \"ok\"\nelse:\n       print \"nok\""}, {"sheet_name": "가배", "debugCode": "A=\"1\"", "errorContent": "TypeError: 'tuple' object is not callable", "resultCode": NaN}, {"sheet_name": "가배", "debugCode": "print (first)", "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "frist = 0\nprint(first)"}, {"sheet_name": "가배", "debugCode": "A = \"\", B = \"\"", "errorContent": "line 1\n    A = \"\", B = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "A = \"\"\nB = \"\""}, {"sheet_name": "가배", "debugCode": "Print(\"오가배\")", "errorContent": "----> 1 Print(\"오가배\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"오가배\")"}, {"sheet_name": "김민정", "debugCode": "변수1=\"\" , 변수2=\"\"", "errorContent": " line 1\n    변수1=\"\" , 변수2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "변수1=\"\" \n변수2=\"\""}, {"sheet_name": "김민정", "debugCode": "print (first)", "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "first=(\"minjeongkim\")"}, {"sheet_name": "김민정", "debugCode": "Print(\"김민정\")", "errorContent": "----> 1 Print(\"김민정\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"김민정\")"}, {"sheet_name": "김혜인", "debugCode": "print (first)", "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "first=(\"HyeIn\")\nprint (first)"}, {"sheet_name": "김혜인", "debugCode": "Sol=\"\", La=\"\"", "errorContent": "line 1\n    Sol=\"\", La=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "Sol=\"\"\nLa=\"\""}, {"sheet_name": "김혜인", "debugCode": "Print (\"김혜인\")", "errorContent": "----> 1 Print (\"김혜인\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"김혜인\")"}, {"sheet_name": "myungjoo", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first=\"MyungJooSong\"\nprint(first)"}, {"sheet_name": "myungjoo", "debugCode": "AN=\"\", GE=\"\"", "errorContent": "line 1\n    AN=\"\", GE=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "AN=\"\"\nGE=\"\""}, {"sheet_name": "myungjoo", "debugCode": "Print (\"송명주\")", "errorContent": "----> 1 Print (\"송명주\")\n\nNameError: name 'Print' is not defined", "resultCode": "print (\"송명주\")"}, {"sheet_name": "hyowon", "debugCode": "print(first)", "errorContent": "1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"hyo\"\nprint(first)"}, {"sheet_name": "hyowon", "debugCode": "A1=\"\", A2=\"\"", "errorContent": " line 1\n    A1=\"\", A2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "A1=\"\"\nA2=\"\""}, {"sheet_name": "hyowon", "debugCode": "Print(\"hyowon\")", "errorContent": "----> 1 Print(\"hyowon\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"hyowon\")"}, {"sheet_name": "ldh", "debugCode": "print(first)", "errorContent": " 1 print(first)\nNameError: name 'first' is not defined", "resultCode": "first = \"leedonghwan\"\nprint(first)"}, {"sheet_name": "ldh", "debugCode": "s1=\"\", s2=\"\"", "errorContent": "line 1\ns1=\"\", s2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "s1=\"\"\ns2=\"\""}, {"sheet_name": "ldh", "debugCode": "Print(\"이동환\")", "errorContent": "----> 1 Print(\"이동환\")\nNameError: name 'Print' is not defined", "resultCode": "print(\"이동환\")"}, {"sheet_name": "bwh", "debugCode": "print (first)", "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"BWH\"\nprint (first)"}, {"sheet_name": "bwh", "debugCode": "space1 = \"\" , space2 = \"\"", "errorContent": "space1 = \"\" , space2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "space1 = \"\" \nspace2 = \"\""}, {"sheet_name": "bwh", "debugCode": "Print (\"봉원희\")", "errorContent": "----> 1 Print (\"봉원희\")\n\nNameError: name 'Print' is not defined", "resultCode": "print (\"봉원희\")"}, {"sheet_name": "김예빈", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first=\"kimyebin\"\nprint(first)"}, {"sheet_name": "김예빈", "debugCode": "Print(\"김예빈\")", "errorContent": "----> 1 Print(\"김예빈\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"김예빈\")"}, {"sheet_name": "김예빈", "debugCode": "A1 = \"\", A2 = \"\"", "errorContent": "    A1 = \"\", A2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "A1 = \"\" \nA2 = \"\""}, {"sheet_name": "SKY", "debugCode": "if A == 10 :\n  C = 50\n  print(C)\nelse :\n  D = 30\n  print(D)\nprint(end)", "errorContent": "      5   D = 30\n      6   print(D)\n----> 7 print(end)\n\nNameError: name 'end' is not defined", "resultCode": "if A == 10 :\n  C = 50\n  print(C)\nelse :\n  D = 30\n  print(D)\nprint(\"end\")"}, {"sheet_name": "SKY", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"김하늘\"\n\nprint(first)"}, {"sheet_name": "SKY", "debugCode": "sky1 = \"\", sky2 = \"\"", "errorContent": "sky1 = \"\", sky2 = \"\"  ^ SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "sky1 = \"\"\nsky2 = \"\""}, {"sheet_name": "SKY", "debugCode": "Print(\"김하늘\")", "errorContent": "----> 1 Print(\"김하늘\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"김하늘\")"}, {"sheet_name": "정지운", "debugCode": "print(first)", "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined", "resultCode": "first = \"jeongjiwoon\"\nprint(first)"}, {"sheet_name": "정지운", "debugCode": "F1 = \"\", F2 = \"\"", "errorContent": "line 1\n    F1 = \"\", F2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?", "resultCode": "F1 = \"\"\nF2 = \"\""}, {"sheet_name": "정지운", "debugCode": "Print(\"정지운\")", "errorContent": "----> 1 Print(\"정지운\")\n\nNameError: name 'Print' is not defined", "resultCode": "print(\"정지운)"}]
+[
+    {
+        "sheet_name": "GoNi",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = 'KIM'\nprint(first)\n"
+    },
+    {
+        "sheet_name": "GoNi",
+        "debugCode": "Empty1 = \" \", Empty2 = \" \", Empty3 = \" \"",
+        "errorContent": " Empty1 = \" \"  , Empty2 = \" \" , Empty3 = \" \"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "Empty1 = \" \" \nEmpty2 = \" \" \nEmpty3 = \" \""
+    },
+    {
+        "sheet_name": "GoNi",
+        "debugCode": "Print(\"vespaet3\")",
+        "errorContent": "----> 1 Print(\"vespaet3\") # 라인하나에 3개의 과정을 거친다.\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"vespaet3\")"
+    },
+    {
+        "sheet_name": "오상훈",
+        "debugCode": "if first < second :\n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")",
+        "errorContent": "line 4\n    else\n         ^\nSyntaxError: expected ':'",
+        "resultCode": "if first < second :\n  first = first + 30\n  print(first)\nelse :\n  second = second + 30\n  print(second)\nprint(\"End\")"
+    },
+    {
+        "sheet_name": "오상훈",
+        "debugCode": "if first < second \n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")",
+        "errorContent": "line 1\n    if first < second\n                      ^\nSyntaxError: expected ':'",
+        "resultCode": "if first < second :\n  first = first + 30\n  print(first)\nelse \n  second = second + 30\n  print(second)\nprint(\"End\")"
+    },
+    {
+        "sheet_name": "오상훈",
+        "debugCode": "E1 = \"\", E2 = \"\"",
+        "errorContent": "line 1\n    E1 = \"\", E2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "E1 = \"\"\nE2 = \"\""
+    },
+    {
+        "sheet_name": "오상훈",
+        "debugCode": "Print(\"오상훈\")",
+        "errorContent": "----> 1 Print(\"오상훈\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"오상훈\")"
+    },
+    {
+        "sheet_name": "한희수",
+        "debugCode": "print(first)",
+        "errorContent": "1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": NaN
+    },
+    {
+        "sheet_name": "한희수",
+        "debugCode": "Wind = \"\", Wish = \"\"",
+        "errorContent": "line 1\n    Wind = \"\", Wish = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "Wind = \"\"\nWish = \"\""
+    },
+    {
+        "sheet_name": "한희수",
+        "debugCode": "Print(\"한희수\")",
+        "errorContent": "----> 1 Print(\"한희수\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"한희수\")"
+    },
+    {
+        "sheet_name": "geosan",
+        "debugCode": "if D = 9 :\n  B = 5\n  print(B)\nelse :\n  B = 200\n  print(B)",
+        "errorContent": "line 2\n    if D = 9 :\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "if D == 9 :\n  B = 5\n  print(B)\nelse :\n  B = 200\n  print(B)"
+    },
+    {
+        "sheet_name": "geosan",
+        "debugCode": "print (first)",
+        "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"geosan\"\n\nprint (first)"
+    },
+    {
+        "sheet_name": "geosan",
+        "debugCode": "dog = \"\", cat = \"\"",
+        "errorContent": " File \"<ipython-input-2-defc814a9e0a>\", line 1\n    dog = \"\", cat = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "dog = \"\" \ncat = \"\""
+    },
+    {
+        "sheet_name": "geosan",
+        "debugCode": "Print (\"임거산\")",
+        "errorContent": "----> 1 Print (\"임거산\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print (\"임거산\")"
+    },
+    {
+        "sheet_name": "최정문",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"JeongMoonChoi\"\nprint(first)"
+    },
+    {
+        "sheet_name": "최정문",
+        "debugCode": "J1 = \"\", J2 = \"\"",
+        "errorContent": "line 1\n    J1 = \"\", J2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "J1 = \"\"\nJ2 = \"\""
+    },
+    {
+        "sheet_name": "최정문",
+        "debugCode": "Print(\"최정문\")",
+        "errorContent": "----> 1 Print(\"최정문\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"최정문\")"
+    },
+    {
+        "sheet_name": "SangaKim",
+        "debugCode": "if D != 9:\n  B = 200\n  print (A,B,C,D)\nelse :\n  B = 5\n  print (A,B,C,D)\nif A != 10:\n  C= 50\n  print (A,B,C,D)\nelse :\n  D= 30\n  print (A,B,C,D)\nprint (\"END\")",
+        "errorContent": "line 1\n    if D = 9 :\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?\nline 7\n    if A = 10:\n       ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "if d != 9 : \n  b = 5\nelse :\n  b = 200\nif a == 10 :\n  c = 50\nelse :\n  d = 30\n  print (a,b,c,d)\nprint (\"END\")"
+    },
+    {
+        "sheet_name": "SangaKim",
+        "debugCode": "print (first)",
+        "errorContent": "NameError                                 Traceback (most recent call last)\n<ipython-input-5-79635e4c55b2> in <cell line: 1>()\n----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first=\"SangaKim\"\nprint (first)"
+    },
+    {
+        "sheet_name": "SangaKim",
+        "debugCode": " S1=\"\", S2=\"\"",
+        "errorContent": " File \"<ipython-input-3-e3d5369c2a18>\", line 1\n    S1=\"\", S2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": " S1=\"\"\n S2=\"\""
+    },
+    {
+        "sheet_name": "SangaKim",
+        "debugCode": "Print (\"Sanga Kim\")",
+        "errorContent": "NameError                                 Traceback (most recent call last)\n<ipython-input-1-075a26f02cea> in <cell line: 1>()\n----> 1 Print (\"Sanga Kim\")",
+        "resultCode": "print (\"Sanga Kim\")"
+    },
+    {
+        "sheet_name": "가배",
+        "debugCode": "if \"xz\" in a:\n        print \"ok\"\n        else:\n        print\"nok\"",
+        "errorContent": "SyntaxError: invalid syntax",
+        "resultCode": "if \"xz\" in a:\n        print \"ok\"\nelse:\n       print \"nok\""
+    },
+    {
+        "sheet_name": "가배",
+        "debugCode": "A=\"1\"",
+        "errorContent": "TypeError: 'tuple' object is not callable",
+        "resultCode": NaN
+    },
+    {
+        "sheet_name": "가배",
+        "debugCode": "print (first)",
+        "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "frist = 0\nprint(first)"
+    },
+    {
+        "sheet_name": "가배",
+        "debugCode": "A = \"\", B = \"\"",
+        "errorContent": "line 1\n    A = \"\", B = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "A = \"\"\nB = \"\""
+    },
+    {
+        "sheet_name": "가배",
+        "debugCode": "Print(\"오가배\")",
+        "errorContent": "----> 1 Print(\"오가배\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"오가배\")"
+    },
+    {
+        "sheet_name": "김민정",
+        "debugCode": "변수1=\"\" , 변수2=\"\"",
+        "errorContent": " line 1\n    변수1=\"\" , 변수2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "변수1=\"\" \n변수2=\"\""
+    },
+    {
+        "sheet_name": "김민정",
+        "debugCode": "print (first)",
+        "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first=(\"minjeongkim\")"
+    },
+    {
+        "sheet_name": "김민정",
+        "debugCode": "Print(\"김민정\")",
+        "errorContent": "----> 1 Print(\"김민정\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"김민정\")"
+    },
+    {
+        "sheet_name": "김혜인",
+        "debugCode": "print (first)",
+        "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first=(\"HyeIn\")\nprint (first)"
+    },
+    {
+        "sheet_name": "김혜인",
+        "debugCode": "Sol=\"\", La=\"\"",
+        "errorContent": "line 1\n    Sol=\"\", La=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "Sol=\"\"\nLa=\"\""
+    },
+    {
+        "sheet_name": "김혜인",
+        "debugCode": "Print (\"김혜인\")",
+        "errorContent": "----> 1 Print (\"김혜인\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"김혜인\")"
+    },
+    {
+        "sheet_name": "myungjoo",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first=\"MyungJooSong\"\nprint(first)"
+    },
+    {
+        "sheet_name": "myungjoo",
+        "debugCode": "AN=\"\", GE=\"\"",
+        "errorContent": "line 1\n    AN=\"\", GE=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "AN=\"\"\nGE=\"\""
+    },
+    {
+        "sheet_name": "myungjoo",
+        "debugCode": "Print (\"송명주\")",
+        "errorContent": "----> 1 Print (\"송명주\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print (\"송명주\")"
+    },
+    {
+        "sheet_name": "hyowon",
+        "debugCode": "print(first)",
+        "errorContent": "1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"hyo\"\nprint(first)"
+    },
+    {
+        "sheet_name": "hyowon",
+        "debugCode": "A1=\"\", A2=\"\"",
+        "errorContent": " line 1\n    A1=\"\", A2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "A1=\"\"\nA2=\"\""
+    },
+    {
+        "sheet_name": "hyowon",
+        "debugCode": "Print(\"hyowon\")",
+        "errorContent": "----> 1 Print(\"hyowon\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"hyowon\")"
+    },
+    {
+        "sheet_name": "ldh",
+        "debugCode": "print(first)",
+        "errorContent": " 1 print(first)\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"leedonghwan\"\nprint(first)"
+    },
+    {
+        "sheet_name": "ldh",
+        "debugCode": "s1=\"\", s2=\"\"",
+        "errorContent": "line 1\ns1=\"\", s2=\"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "s1=\"\"\ns2=\"\""
+    },
+    {
+        "sheet_name": "ldh",
+        "debugCode": "Print(\"이동환\")",
+        "errorContent": "----> 1 Print(\"이동환\")\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"이동환\")"
+    },
+    {
+        "sheet_name": "bwh",
+        "debugCode": "print (first)",
+        "errorContent": "----> 1 print (first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"BWH\"\nprint (first)"
+    },
+    {
+        "sheet_name": "bwh",
+        "debugCode": "space1 = \"\" , space2 = \"\"",
+        "errorContent": "space1 = \"\" , space2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "space1 = \"\" \nspace2 = \"\""
+    },
+    {
+        "sheet_name": "bwh",
+        "debugCode": "Print (\"봉원희\")",
+        "errorContent": "----> 1 Print (\"봉원희\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print (\"봉원희\")"
+    },
+    {
+        "sheet_name": "김예빈",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first=\"kimyebin\"\nprint(first)"
+    },
+    {
+        "sheet_name": "김예빈",
+        "debugCode": "Print(\"김예빈\")",
+        "errorContent": "----> 1 Print(\"김예빈\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"김예빈\")"
+    },
+    {
+        "sheet_name": "김예빈",
+        "debugCode": "A1 = \"\", A2 = \"\"",
+        "errorContent": "    A1 = \"\", A2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "A1 = \"\" \nA2 = \"\""
+    },
+    {
+        "sheet_name": "SKY",
+        "debugCode": "if A == 10 :\n  C = 50\n  print(C)\nelse :\n  D = 30\n  print(D)\nprint(end)",
+        "errorContent": "      5   D = 30\n      6   print(D)\n----> 7 print(end)\n\nNameError: name 'end' is not defined",
+        "resultCode": "if A == 10 :\n  C = 50\n  print(C)\nelse :\n  D = 30\n  print(D)\nprint(\"end\")"
+    },
+    {
+        "sheet_name": "SKY",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"김하늘\"\n\nprint(first)"
+    },
+    {
+        "sheet_name": "SKY",
+        "debugCode": "sky1 = \"\", sky2 = \"\"",
+        "errorContent": "sky1 = \"\", sky2 = \"\"  ^ SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "sky1 = \"\"\nsky2 = \"\""
+    },
+    {
+        "sheet_name": "SKY",
+        "debugCode": "Print(\"김하늘\")",
+        "errorContent": "----> 1 Print(\"김하늘\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"김하늘\")"
+    },
+    {
+        "sheet_name": "정지운",
+        "debugCode": "print(first)",
+        "errorContent": "----> 1 print(first)\n\nNameError: name 'first' is not defined",
+        "resultCode": "first = \"jeongjiwoon\"\nprint(first)"
+    },
+    {
+        "sheet_name": "정지운",
+        "debugCode": "F1 = \"\", F2 = \"\"",
+        "errorContent": "line 1\n    F1 = \"\", F2 = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "resultCode": "F1 = \"\"\nF2 = \"\""
+    },
+    {
+        "sheet_name": "정지운",
+        "debugCode": "Print(\"정지운\")",
+        "errorContent": "----> 1 Print(\"정지운\")\n\nNameError: name 'Print' is not defined",
+        "resultCode": "print(\"정지운)"
+    }
+]

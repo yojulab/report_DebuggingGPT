@@ -35,11 +35,6 @@
         "output": "print(\"오상훈\")"
     },
     {
-        "instruction": "print(first)",
-        "input": "1 print(first)\n\nNameError: name 'first' is not defined",
-        "output": NaN
-    },
-    {
         "instruction": "Wind = \"\", Wish = \"\"",
         "input": "line 1\n    Wind = \"\", Wish = \"\"\n    ^\nSyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
         "output": "Wind = \"\"\nWish = \"\""
@@ -108,11 +103,6 @@
         "instruction": "if \"xz\" in a:\n        print \"ok\"\n        else:\n        print\"nok\"",
         "input": "SyntaxError: invalid syntax",
         "output": "if \"xz\" in a:\n        print \"ok\"\nelse:\n       print \"nok\""
-    },
-    {
-        "instruction": "A=\"1\"",
-        "input": "TypeError: 'tuple' object is not callable",
-        "output": NaN
     },
     {
         "instruction": "print (first)",
