@@ -20,10 +20,13 @@ def get_matche_columns(columns_name):
 
 
 # Read Excel file
-excel_file = pd.read_excel('Datas/DebugginDairy_Pythons.xlsx', sheet_name=None)
+datas_path = 'Datas/'
+
+excel_file = pd.read_excel(f'{datas_path}DebugginDairy.xlsx', sheet_name=None)
 
 # Create empty list for objects
 objects_list = []
+self_instructs_list = []
 
 # Iterate through each row of Excel sheet
 total_rows = 0
@@ -39,11 +42,20 @@ for sheet_name in list(excel_file.keys()):
                 'errorContent': row[column_list[1]],
                 'resultCode': row[column_list[2]]
             }
+            self_instruct_dict = {
+                'instruction': row[column_list[0]],
+                'input': row[column_list[1]],
+                'output': row[column_list[2]]
+            }
             # Append object to list
             objects_list.append(object_dict)
+            self_instructs_list.append(self_instruct_dict)
             total_rows = total_rows + 1
+            print(f'object_dict : {object_dict}')
 
 print(f'total_rows : {total_rows}')
 # Create JSON file
-with open('Datas/output.json', 'w') as output_file:
-    json.dump(objects_list, output_file, ensure_ascii=False)
+with open(f'{datas_path}objects_output.json', 'w', encoding='utf8') as objects_output_file, open(f'{datas_path}self_instructs_output.json', 'w', encoding='utf8') as self_instructs_output_file:
+    json.dump(objects_list, objects_output_file, ensure_ascii=False)
+    json.dump(self_instructs_list,
+              self_instructs_output_file, ensure_ascii=False)
