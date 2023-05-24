@@ -18,12 +18,19 @@ def get_matche_columns(columns_name):
 
     return result_columns
 
+def check_nan_values(series):
+    for value in series.values:
+        if isinstance(value, float) and math.isnan(value):
+            return False
+        if isinstance(value, str) and value.lower() == 'nan':
+            return False
+    return True
 
 # save path
 datas_path = 'Datas/'
 
 # Read Excel file
-excel_file = pd.read_excel(f'{datas_path}DebugginDairy.xlsx', sheet_name=None)
+excel_file = pd.read_excel(f'{datas_path}DebuggingDairy.xlsx', sheet_name=None)
 
 # Create empty list for objects
 objects_list = []
@@ -36,7 +43,7 @@ for sheet_name in list(excel_file.keys()):
     column_list = get_matche_columns(list(excel_sheet.columns))
     for index, row in excel_sheet.iterrows():
         # Create object for each row
-        if len(column_list) == 3 and type(row[column_list[0]]) is str:
+        if len(column_list) == 3 and type(row[column_list[0]]) is str and check_nan_values(row) :
             object_dict = {
                 'sheet_name': sheet_name,
                 'debugCode': row[column_list[0]],
